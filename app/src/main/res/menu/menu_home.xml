@@ -1,0 +1,23 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hw2byadav.cmu.edu.myapplication.HomeActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/TweetLocationItem"
+        android:title="Tweet_Location"
+        android:icon="@drawable/tweet_icon"
+        android:titleCondensed="Add"
+        android:alphabeticShortcut="+"
+        app:showAsAction="ifRoom" ></item>
+    <item android:id="@+id/mapSearchItem"
+        android:title="Add_Event"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:titleCondensed="Add"
+        android:alphabeticShortcut="+"
+        app:showAsAction="ifRoom" ></item>
+</menu>
